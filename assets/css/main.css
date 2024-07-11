@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.active {
+  @apply hover:text-primary-0 transition-all dark:text-white;
+}
+
+.btn {
+  @apply text-[9px] sm:text-lg py-2 md:py-3 px-2 md:px-4 bg-primary-0 text-white rounded-md transition-all duration-200 hover:bg-[#cf352a] hover:scale-105;
+}
+
+.hero {
+  background-image: url("../imgs/hero.png");
+  background-repeat: no-repeat;
+}
+
+.btn-2 {
+  @apply bg-white text-primary-0 sm:text-lg font-bold py-3 px-5 rounded-full hover:bg-secondary-0 transition-all  text-sm md:text-base flex items-center gap-4 border border-primary-0 dark:bg-transparent dark:hover:bg-secondary-0;
+}
+
+.mission {
+  background-image: url("../imgs/Mission-bg.svg");
+  background-repeat: no-repeat;
+}
+
+.team-bg {
+  background-image: url("../imgs/Team_bg.png");
+  background-repeat: no-repeat;
+}
+
+.footer-link {
+  @apply text-[#20484F] text-sm lg:text-base transition-all duration-500 hover:underline dark:text-gray-100;
+}
